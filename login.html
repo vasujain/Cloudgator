@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)http://cloudgator.herokuapp.com/user/login -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Cloudgator</title>
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures that devices display responsive pages properly -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <!-- ZeroClipboard for copying with a click -->
+    <script src="js/zeroclip.js" type="text/javascript"></script>
+
+    <link href="css/cloudstyle.css" media="all" rel="stylesheet" type="text/css"> 
+    <!-- Sandwiched between bootstrap and bootstrap-responsive - recommended -->
+		<script src="js/app.js" type="text/javascript"></script>
+    <meta content="authenticity_token" name="csrf-param">
+    <meta content="XqoszlqqGJZi5AQarcsb58P9wl6psnCTEcVWgdDjo7A=" name="csrf-token">
+
+    <!-- Fav and touch icons -->
+    <link href="http://cloudgator.herokuapp.com/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+    <link href="http://cloudgator.herokuapp.com/apple-touch-icon.png" rel="apple-touch-icon" type="image/png">
+    <link href="http://cloudgator.herokuapp.com/apple-touch-icon.png" rel="apple-touch-icon-precomposed" type="image/png">
+    <link href="http://cloudgator.herokuapp.com/apple-touch-startup-image.png" rel="apple-touch-startup-image" type="image/png">
+	<style type="text/css"></style></head>
+	<body>
+    <!-- Render header -->
+    	
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <a href="http://cloudgator.herokuapp.com/" class="brand">cloudgator</a>
+          <!--
+          <li><a href="/user/login">Login</a></li>
+          <li><a href="/user/login?provider=facebook&amp;role=seller">Login with Facebook</a></li>
+          <li><a href="/user/register">Register</a></li>
+          -->
+    </div> <!-- container -->
+  </div> <!-- navbar-inner -->
+</div> <!-- navbar navbar-fixed-top -->
+
+
+
+    <!-- Yield view body -->
+    <div class="container">
+			<div class="center-panel">
+      <!-- Render flash notices -->
+      
+
+
+
+      
+<div class="row">
+	<div class="span10 offset1">
+		<div class="content-card">
+			<div class="hero-unit">
+				<div class="page-header">
+					<h1>Cloudgator</h1>
+  				<!-- <img src="./images/how_it_works.png"></h1>-->
+          <br>
+					<p>
+          A cloud storage aggregator!
+          </p>
+				</div>
+  			<!-- FB Connect logic -->
+  			<div class="fb-connect" style="display: block;">
+  <a href="http://cloudgator.herokuapp.com/user/login?provider=facebook&role=seller">
+    <img alt="Fb_connect_glow" border="0" id="fb-connect-button-glow" src="images/fbconnectglow.png" style="z-index: -1;">
+    <img alt="Fb_connect" border="0" id="fb-connect-button" src="images/fbconnect.png" style="z-index: 0;">
+</a></div>
+
+
+<script type="text/javascript">
+  $(document).ready(
+    function() {
+      /* Hide and show are essential. Without them, the div gets misplaced [shifts to right] for some reason - and 
+       * gets back into place when you open the console and try to inspect the element */
+      $("div.fb-connect").hide();
+      $("div.fb-connect").hover(
+        function(event) {
+          $("#fb-connect-button").css("z-index", "0");
+          $("#fb-connect-button-glow").css("z-index", "1");
+        },
+        function(event) {
+          $("#fb-connect-button").css("z-index", "0");
+          $("#fb-connect-button-glow").css("z-index", "-1");
+        }
+      );
+      $("div.fb-connect").show("fast");
+    }
+  );
+</script>
+
+
+				<br>
+				<br>
+  			<br>
+  			<br>
+  			<instructions>
+    		<b>How it works:</b>
+    			<ol class="welcome-card-instructions">
+            <li class="welcome-card-instructions"> Sign in via Facebook Connect
+            </li><li class="welcome-card-instructions"> Link your cloud storage accounts
+      			</li><li class="welcome-card-instructions"> Search, retrieve and upload to all your storage accounts using Cloudgator!
+    			</li></ol>
+  			</instructions>
+			</div>
+		</div>
+	</div>
+</div>
+<!--
+<table class="middle">
+  <tr>
+    <td><label for="uname">Username:</label> </td>
+    <td><input id="uname" name="uname" type="text" /> </td>
+  </tr>
+  <tr>
+    <td><label for="pwd">Password:</label> </td>
+    <td><input id="pwd" name="pwd" type="password" /> </td>
+  </tr>
+  <tr>
+    <td><input name="commit" type="submit" value="Login" /> </td>
+  </tr>
+</table>
+-->
+
+
+
+    	</div>
+		</div>
+
+    <!-- Render footer -->
+	
+
+
+</body></html>
