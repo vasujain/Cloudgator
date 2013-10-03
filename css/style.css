@@ -1,0 +1,39 @@
+/*
+	Table styles
+	written by Vasu Jain http://www.vasujain.in
+*/
+
+#listFolder{
+    text-align:left;
+}
+#iconFolder{
+    background-image: url("../images/folder.png");
+}
+#iconFile{
+    background-image: url("../images/file.png");
+}
+table, th, td {
+    border: 2px solid #D4E0EE;
+    border-collapse: collapse;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    color: #555;
+}
+td, th {
+    padding: 4px;
+    text-align: center;
+}
+
+table a:link {
+    color: #718ABE;
+    text-decoration: none;
+}
+
+table a:visited {
+    color: #718ABE;
+    text-decoration: none;
+}
+
+table a:hover {
+    color: #718ABE;
+    text-decoration: underline !important;
+}
