@@ -16,4 +16,4 @@ Critical components are as follows:
 9. Integration of all the components
 10. UI cosmetic changes
 
-http://cloudgator.herokuapp.com/user/login
+http://cloudgator.herokuapp.com/user/login 
